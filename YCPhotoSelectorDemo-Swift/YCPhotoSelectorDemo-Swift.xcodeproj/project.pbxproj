@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD1A0F51F98B5CB009FCBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A0F41F98B5CB009FCBC8 /* AppDelegate.swift */; };
+		2FD1A0F71F98B5CB009FCBC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A0F61F98B5CB009FCBC8 /* ViewController.swift */; };
+		2FD1A0FA1F98B5CB009FCBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A0F81F98B5CB009FCBC8 /* Main.storyboard */; };
+		2FD1A0FC1F98B5CB009FCBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A0FB1F98B5CB009FCBC8 /* Assets.xcassets */; };
+		2FD1A0FF1F98B5CB009FCBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A0FD1F98B5CB009FCBC8 /* LaunchScreen.storyboard */; };
+		2FD1A1161F98B60A009FCBC8 /* YCPhotoAssetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A1071F98B609009FCBC8 /* YCPhotoAssetCell.swift */; };
+		2FD1A1171F98B60A009FCBC8 /* YCPhotoAssetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A1081F98B609009FCBC8 /* YCPhotoAssetCell.xib */; };
+		2FD1A1181F98B60A009FCBC8 /* YCPhotoAssetFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A1091F98B609009FCBC8 /* YCPhotoAssetFooterView.swift */; };
+		2FD1A1191F98B60A009FCBC8 /* YCPhotoAssetFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A10A1F98B609009FCBC8 /* YCPhotoAssetFooterView.xib */; };
+		2FD1A11A1F98B60A009FCBC8 /* YCPhotoAssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A10B1F98B609009FCBC8 /* YCPhotoAssetModel.swift */; };
+		2FD1A11B1F98B60A009FCBC8 /* YCPhotoAssetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A10C1F98B609009FCBC8 /* YCPhotoAssetVC.swift */; };
+		2FD1A11C1F98B60A009FCBC8 /* YCPhotoAssetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A10D1F98B609009FCBC8 /* YCPhotoAssetVC.xib */; };
+		2FD1A11D1F98B60A009FCBC8 /* YCPhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A10E1F98B609009FCBC8 /* YCPhotoSelectorCell.swift */; };
+		2FD1A11E1F98B60A009FCBC8 /* YCPhotoSelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A10F1F98B609009FCBC8 /* YCPhotoSelectorCell.xib */; };
+		2FD1A11F1F98B60A009FCBC8 /* YC_PhotoSelector_Checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A1111F98B609009FCBC8 /* YC_PhotoSelector_Checked@2x.png */; };
+		2FD1A1201F98B60A009FCBC8 /* YC_PhotoSelector_Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A1121F98B609009FCBC8 /* YC_PhotoSelector_Video@2x.png */; };
+		2FD1A1211F98B60A009FCBC8 /* YCPhotoSelectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A1131F98B609009FCBC8 /* YCPhotoSelectorModel.swift */; };
+		2FD1A1221F98B60A009FCBC8 /* YCPhotoSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1A1141F98B609009FCBC8 /* YCPhotoSelectorVC.swift */; };
+		2FD1A1231F98B60A009FCBC8 /* YCPhotoSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1A1151F98B609009FCBC8 /* YCPhotoSelectorVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FD1A0F11F98B5CB009FCBC8 /* YCPhotoSelectorDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YCPhotoSelectorDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD1A0F41F98B5CB009FCBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FD1A0F61F98B5CB009FCBC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FD1A0F91F98B5CB009FCBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FD1A0FB1F98B5CB009FCBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FD1A0FE1F98B5CB009FCBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FD1A1001F98B5CB009FCBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD1A1071F98B609009FCBC8 /* YCPhotoAssetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCPhotoAssetCell.swift; sourceTree = "<group>"; };
+		2FD1A1081F98B609009FCBC8 /* YCPhotoAssetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCPhotoAssetCell.xib; sourceTree = "<group>"; };
+		2FD1A1091F98B609009FCBC8 /* YCPhotoAssetFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCPhotoAssetFooterView.swift; sourceTree = "<group>"; };
+		2FD1A10A1F98B609009FCBC8 /* YCPhotoAssetFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCPhotoAssetFooterView.xib; sourceTree = "<group>"; };
+		2FD1A10B1F98B609009FCBC8 /* YCPhotoAssetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCPhotoAssetModel.swift; sourceTree = "<group>"; };
+		2FD1A10C1F98B609009FCBC8 /* YCPhotoAssetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCPhotoAssetVC.swift; sourceTree = "<group>"; };
+		2FD1A10D1F98B609009FCBC8 /* YCPhotoAssetVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCPhotoAssetVC.xib; sourceTree = "<group>"; };
+		2FD1A10E1F98B609009FCBC8 /* YCPhotoSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCPhotoSelectorCell.swift; sourceTree = "<group>"; };
+		2FD1A10F1F98B609009FCBC8 /* YCPhotoSelectorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCPhotoSelectorCell.xib; sourceTree = "<group>"; };
+		2FD1A1111F98B609009FCBC8 /* YC_PhotoSelector_Checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YC_PhotoSelector_Checked@2x.png"; sourceTree = "<group>"; };
+		2FD1A1121F98B609009FCBC8 /* YC_PhotoSelector_Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YC_PhotoSelector_Video@2x.png"; sourceTree = "<group>"; };
+		2FD1A1131F98B609009FCBC8 /* YCPhotoSelectorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCPhotoSelectorModel.swift; sourceTree = "<group>"; };
+		2FD1A1141F98B609009FCBC8 /* YCPhotoSelectorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCPhotoSelectorVC.swift; sourceTree = "<group>"; };
+		2FD1A1151F98B609009FCBC8 /* YCPhotoSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCPhotoSelectorVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD1A0EE1F98B5CB009FCBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD1A0E81F98B5CB009FCBC8 = {
+			isa = PBXGroup;
+			children = (
+				2FD1A0F31F98B5CB009FCBC8 /* YCPhotoSelectorDemo-Swift */,
+				2FD1A0F21F98B5CB009FCBC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD1A0F21F98B5CB009FCBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1A0F11F98B5CB009FCBC8 /* YCPhotoSelectorDemo-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD1A0F31F98B5CB009FCBC8 /* YCPhotoSelectorDemo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1A1061F98B609009FCBC8 /* YCPhotoSelector */,
+				2FD1A0F41F98B5CB009FCBC8 /* AppDelegate.swift */,
+				2FD1A0F61F98B5CB009FCBC8 /* ViewController.swift */,
+				2FD1A0F81F98B5CB009FCBC8 /* Main.storyboard */,
+				2FD1A0FB1F98B5CB009FCBC8 /* Assets.xcassets */,
+				2FD1A0FD1F98B5CB009FCBC8 /* LaunchScreen.storyboard */,
+				2FD1A1001F98B5CB009FCBC8 /* Info.plist */,
+			);
+			path = "YCPhotoSelectorDemo-Swift";
+			sourceTree = "<group>";
+		};
+		2FD1A1061F98B609009FCBC8 /* YCPhotoSelector */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1A1101F98B609009FCBC8 /* YCPhotoSelectorImage */,
+				2FD1A1141F98B609009FCBC8 /* YCPhotoSelectorVC.swift */,
+				2FD1A1151F98B609009FCBC8 /* YCPhotoSelectorVC.xib */,
+				2FD1A10C1F98B609009FCBC8 /* YCPhotoAssetVC.swift */,
+				2FD1A10D1F98B609009FCBC8 /* YCPhotoAssetVC.xib */,
+				2FD1A1131F98B609009FCBC8 /* YCPhotoSelectorModel.swift */,
+				2FD1A10B1F98B609009FCBC8 /* YCPhotoAssetModel.swift */,
+				2FD1A10E1F98B609009FCBC8 /* YCPhotoSelectorCell.swift */,
+				2FD1A10F1F98B609009FCBC8 /* YCPhotoSelectorCell.xib */,
+				2FD1A1071F98B609009FCBC8 /* YCPhotoAssetCell.swift */,
+				2FD1A1081F98B609009FCBC8 /* YCPhotoAssetCell.xib */,
+				2FD1A1091F98B609009FCBC8 /* YCPhotoAssetFooterView.swift */,
+				2FD1A10A1F98B609009FCBC8 /* YCPhotoAssetFooterView.xib */,
+			);
+			path = YCPhotoSelector;
+			sourceTree = "<group>";
+		};
+		2FD1A1101F98B609009FCBC8 /* YCPhotoSelectorImage */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1A1111F98B609009FCBC8 /* YC_PhotoSelector_Checked@2x.png */,
+				2FD1A1121F98B609009FCBC8 /* YC_PhotoSelector_Video@2x.png */,
+			);
+			path = YCPhotoSelectorImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD1A0F01F98B5CB009FCBC8 /* YCPhotoSelectorDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD1A1031F98B5CB009FCBC8 /* Build configuration list for PBXNativeTarget "YCPhotoSelectorDemo-Swift" */;
+			buildPhases = (
+				2FD1A0ED1F98B5CB009FCBC8 /* Sources */,
+				2FD1A0EE1F98B5CB009FCBC8 /* Frameworks */,
+				2FD1A0EF1F98B5CB009FCBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YCPhotoSelectorDemo-Swift";
+			productName = "YCPhotoSelectorDemo-Swift";
+			productReference = 2FD1A0F11F98B5CB009FCBC8 /* YCPhotoSelectorDemo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD1A0E91F98B5CB009FCBC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = YuChengGuo;
+				TargetAttributes = {
+					2FD1A0F01F98B5CB009FCBC8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FD1A0EC1F98B5CB009FCBC8 /* Build configuration list for PBXProject "YCPhotoSelectorDemo-Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD1A0E81F98B5CB009FCBC8;
+			productRefGroup = 2FD1A0F21F98B5CB009FCBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD1A0F01F98B5CB009FCBC8 /* YCPhotoSelectorDemo-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD1A0EF1F98B5CB009FCBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD1A11F1F98B60A009FCBC8 /* YC_PhotoSelector_Checked@2x.png in Resources */,
+				2FD1A1201F98B60A009FCBC8 /* YC_PhotoSelector_Video@2x.png in Resources */,
+				2FD1A0FF1F98B5CB009FCBC8 /* LaunchScreen.storyboard in Resources */,
+				2FD1A0FC1F98B5CB009FCBC8 /* Assets.xcassets in Resources */,
+				2FD1A1231F98B60A009FCBC8 /* YCPhotoSelectorVC.xib in Resources */,
+				2FD1A0FA1F98B5CB009FCBC8 /* Main.storyboard in Resources */,
+				2FD1A1171F98B60A009FCBC8 /* YCPhotoAssetCell.xib in Resources */,
+				2FD1A11C1F98B60A009FCBC8 /* YCPhotoAssetVC.xib in Resources */,
+				2FD1A11E1F98B60A009FCBC8 /* YCPhotoSelectorCell.xib in Resources */,
+				2FD1A1191F98B60A009FCBC8 /* YCPhotoAssetFooterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD1A0ED1F98B5CB009FCBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD1A0F71F98B5CB009FCBC8 /* ViewController.swift in Sources */,
+				2FD1A11A1F98B60A009FCBC8 /* YCPhotoAssetModel.swift in Sources */,
+				2FD1A1161F98B60A009FCBC8 /* YCPhotoAssetCell.swift in Sources */,
+				2FD1A0F51F98B5CB009FCBC8 /* AppDelegate.swift in Sources */,
+				2FD1A11B1F98B60A009FCBC8 /* YCPhotoAssetVC.swift in Sources */,
+				2FD1A1211F98B60A009FCBC8 /* YCPhotoSelectorModel.swift in Sources */,
+				2FD1A1181F98B60A009FCBC8 /* YCPhotoAssetFooterView.swift in Sources */,
+				2FD1A1221F98B60A009FCBC8 /* YCPhotoSelectorVC.swift in Sources */,
+				2FD1A11D1F98B60A009FCBC8 /* YCPhotoSelectorCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FD1A0F81F98B5CB009FCBC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD1A0F91F98B5CB009FCBC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FD1A0FD1F98B5CB009FCBC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD1A0FE1F98B5CB009FCBC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD1A1011F98B5CB009FCBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FD1A1021F98B5CB009FCBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD1A1041F98B5CB009FCBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ557WUPWQ;
+				INFOPLIST_FILE = "YCPhotoSelectorDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ycg.YCPhotoSelectorDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD1A1051F98B5CB009FCBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ557WUPWQ;
+				INFOPLIST_FILE = "YCPhotoSelectorDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ycg.YCPhotoSelectorDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD1A0EC1F98B5CB009FCBC8 /* Build configuration list for PBXProject "YCPhotoSelectorDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD1A1011F98B5CB009FCBC8 /* Debug */,
+				2FD1A1021F98B5CB009FCBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD1A1031F98B5CB009FCBC8 /* Build configuration list for PBXNativeTarget "YCPhotoSelectorDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD1A1041F98B5CB009FCBC8 /* Debug */,
+				2FD1A1051F98B5CB009FCBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD1A0E91F98B5CB009FCBC8 /* Project object */;
+}
